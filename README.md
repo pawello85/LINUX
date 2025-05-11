@@ -1,8 +1,13 @@
-#Konfiguracja arch
+# Konfiguracja arch
 ---
 hyprland
+
 ---
+
 kitty
+
 ---
+
 nvim
+
 ---

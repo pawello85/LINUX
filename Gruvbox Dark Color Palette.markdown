@@ -8,7 +8,6 @@
 | bg2          | `#504945` | `(80, 73, 69)`   | Ciepły, średni szary. Podświetlanie aktywnych linii lub elementów UI.         |
 | bg3          | `#665c54` | `(102, 92, 84)`  | Jaśniejszy szary z brązowym odcieniem. Komentarze, mniej istotne elementy.    |
 | bg4          | `#7c6f64` | `(124, 111, 100)`| Ciepły, jasny szary z beżem. Numery linii, delikatne podświetlenia.           |
-|-----------------------------------------------------------------------------------------------------------------------------|
 |**Foreground**|           |                  |                                                                               |
 |--------------|-----------|------------------|-------------------------------------------------------------------------------|
 | fg0          | `#fbf1c7` | `(251, 241, 199)`| Bardzo jasny, ciepły beż z żółtawym odcieniem. Główny kolor tekst Agencia de Viajes.|

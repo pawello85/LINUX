@@ -6,7 +6,7 @@
 | bg1            | `#3c3836` | `(60, 56, 54)`   | Mid dark gray with brown podtonem. Sidebars, devide lines.                    |
 | bg2            | `#504945` | `(80, 73, 69)`   | Warm, mid gray. Active line highlight or UI elements.                         |
 | bg3            | `#665c54` | `(102, 92, 84)`  | Brighter gray with brown shadow. Comments, less important elements.           |
-| bg4            | `#7c6f64` | `(124, 111, 100)`| Warm, bright gray with beżebegiem. Line numbers, slight highlights.           |
+| bg4            | `#7c6f64` | `(124, 111, 100)`| Warm, bright gray with begie. Line numbers, slight highlights.           |
 |**Foreground**  | | | |
 | fg0            | `#fbf1c7` | `(251, 241, 199)`| Bright begie. Main text color.                                                |
 | fg1            | `#ebdbb2` | `(235, 219, 178)`| Warm, bright begie. Standard text color in most cases.                        |

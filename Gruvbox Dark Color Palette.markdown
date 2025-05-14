@@ -1,4 +1,4 @@
-| Nazwa koloru | HEX       | RGB              | Opis wizualny                                                                 |
+|Color name    | HEX       | RGB              | Opis wizualny                                                                 |
 |--------------|-----------|------------------|-------------------------------------------------------------------------------|
 |**Background**|           |                  |                                                                               |
 | bg0 (Hard)   | `#1d2021` | `(29, 32, 33)`   | Bardzo ciemny, niemal czarny szary z zielonkawym odcieniem. Główne tło.       |

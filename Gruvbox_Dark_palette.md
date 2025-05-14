@@ -15,7 +15,7 @@
 | fg4          | `#a89984` | `(168, 153, 132)`| Szarawy beż, subtelny. Nieaktywne elementy UI, delikatny tekst.               |
 | **Neutral** | | | |
 | gray         | `#928374` | `(146, 131, 116)`| Ciepły, neutralny szary z brązowym podtonem. Komentarze, nieaktywne elementy. |
-| **Colors (Bright & Faded)** | | | |
+| **Colors** | | | |
 | **Red** | | | |
 | red (bright) | `#fb4934` | `(251, 73, 52)`  | Żywy, ciepły czerwony z pomarańczowym odcieniem. Błędy, słowa kluczowe.       |
 | red (faded)  | `#cc241d` | `(204, 36, 29)`  | Przytłumiona, głębsza czerwień. Drugorzędne błędy, akcenty.                   |

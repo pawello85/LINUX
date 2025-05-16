@@ -1,4 +1,4 @@
-|Color name      | HEX       | RGB (decimal)    | Description                                                                   |
+|Color name      | HEX       |-------RGB--------| Description                                                                   |
 |----------------|-----------|------------------|-------------------------------------------------------------------------------|
 |**Background**  | | | |
 | bg0 (Hard)     | `#1d2021` | `(29, 32, 33)`   | Very dark, darkgray with green fade. Main background.                         |

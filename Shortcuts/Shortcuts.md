@@ -3,9 +3,14 @@
 
 __Hyprland__
 
-| Shortcut | Description |
-|----------|-------------|
-
+| Shortcut         | Description               |
+|------------------|---------------------------|
+|**SUPER +**       |                           |
+| `(0-9)`          | change workspace          |
+| `ENTER`          | open terminal (kitty)     |
+| `Q`              | quit window               |
+| `R`              | search app (fuzzel)       |
+| `Z`              | open browser (Zen)        |
 ---
 
 __Nvim__ 
@@ -30,11 +35,11 @@ __Nvim__
 | `p`              | paste                     |
 | `:w !wl-copy`    | copy over nvim            |
 | `u`              | undo                      |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
+| `0` | jump to begin line |
+| `$` | jump to end |
+| `^` | jump to begin of not empty  |
+| `f+symbol` | move to next same symbol in line |
+| `F+symbol` | move to previous same symbol in line |
 | `` |  |
 | `` |  |
 | `` |  |

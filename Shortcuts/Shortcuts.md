@@ -7,10 +7,22 @@ __Hyprland__
 |------------------|---------------------------|
 |**SUPER +**       |                           |
 | `(0-9)`          | change workspace          |
+| `arrow key`      | move betwen windows       |
 | `ENTER`          | open terminal (kitty)     |
 | `Q`              | quit window               |
 | `R`              | search app (fuzzel)       |
 | `Z`              | open browser (Zen)        |
+| `J`              | toggle split              |
+| `LMB`            | move window               |
+| `RMB`            | resize window             |
+|**SUPER+shift**   |                           |
+| `(0-9)`          | move actice window to workspace|
+| `M`              | quit hyprland (logout)    |
+| `B`              | reload waybar             |
+| `N`              | kill waybar               |
+| `L`              | launch waybar             |
+| `S`              | take screenshoot          |
+
 ---
 
 __Nvim__ 
@@ -35,23 +47,30 @@ __Nvim__
 | `p`              | paste                     |
 | `:w !wl-copy`    | copy over nvim            |
 | `u`              | undo                      |
-| `0` | jump to begin line |
-| `$` | jump to end |
-| `^` | jump to begin of not empty  |
-| `f+symbol` | move to next same symbol in line |
+| `0`              | jump to begin line        |
+| `$`        | jump to end line                |
+| `^`        | jump to begin of not empty      |
+| `f+symbol` | move to next same symbol in line|
 | `F+symbol` | move to previous same symbol in line |
-| `` |  |
-| `` |  |
-| `` |  |
-| `` |  |
+| `i` | start write before cursor              |
+| `I`              | start write on begin of line |
+| `a` | start writing after cursor |
+| `A` | start wtiting at the end of line |
 
 
 ---
 
-## kitty
+## Terminal
 
-| Shortcut | Description |
+| command  | Description |
 |----------|-------------|
-
+| `sudo`   | run as admin|
+| `glow <filename>`| open .md file|
+| `pdf <filename>`| open pdf |
+| `img <filename>`| open image |
+| `pacman`| package manager |
+| `sudo pacman -S <packagename>`| install package |
+| `-//- -R` | remove package |
+| `-//- -Q` | list of all instled |
 ---
 

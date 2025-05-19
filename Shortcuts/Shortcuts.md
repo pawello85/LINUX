@@ -1,0 +1,12 @@
+### Shortcuts
+---
+
+## Hyprland 
+---
+
+## Nvim
+---
+
+## kitty
+---
+

@@ -29,7 +29,7 @@ __Nvim__
 
 | Shortcut         | Description               |
 |------------------|---------------------------|
-| **Normal mode**  |                           |
+| `esc`            | go back to normal mode    |
 | `:w`             | save                      |
 | `:q`             | quit                      |
 | `:wq`            | save and quit             |

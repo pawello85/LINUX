@@ -56,7 +56,7 @@ __Nvim__
 | `I`              | start write on begin of line |
 | `a` | start writing after cursor |
 | `A` | start wtiting at the end of line |
-
+| `Ctrl+w w`|jump betwen splits|
 
 ---
 

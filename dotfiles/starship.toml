@@ -1,60 +1,56 @@
-# ==============================
-# STARSHIP – DZIAŁA Z FISH + GHOSTTY
-# ==============================
-
-# GŁÓWNY FORMAT – BEZ \ (kontynuacji linii!)
+# GŁÓWNY FORMAT
 format = "$username$hostname $directory$git_branch$git_status$cmd_duration$line_break$character"
 
-# USERNAME
+# PRAWY PROMPT (Godzina)
+right_format = "$time"
+
 [username]
 show_always = true
 style_user = "bold cyan"
 format = "[$user]($style)"
 
-# HOSTNAME
 [hostname]
 ssh_only = false
 style = "bold yellow"
 format = "@[$hostname]($style)"
 
-# KATALOG
 [directory]
 style = "bold purple"
 truncation_length = 10
 truncate_to_repo = false
 format = " [$path]($style) "
 
-# GIT
 [git_branch]
-symbol = "🌱"
+symbol = " "
 style = "bold green"
-format = " $symbol$branch "
+format = " on $symbol$branch "
 
-
-# Podstawowa konfiguracja Starship z git_status
 [git_status]
 format = '([$all_status$ahead_behind]($style) )'
 style = 'bold red'
-conflicted = '🏳'
+conflicted = '═'
 ahead = '⇡${count}'
 diverged = '⇕⇡${ahead}⇣${behind}'
 behind = '⇣${count}'
 up_to_date = ''
-stashed = '📦'
-modified = '📝${count}'
-staged = '[++\($count\)](green)'
-renamed = '👅'
-deleted = '✘'
-untracked = '🤷${count}'
-#clean = '✔'
+stashed = '󰏖 '
+modified = 'Δ${count}'
+staged = '[+${count}](green)'
+renamed = '󰁕 '
+deleted = '󰗨 '
+untracked = '?${count}'
 
-# CZAS
 [cmd_duration]
 min_time = 2000
-format = " [⏱ $duration]($style) "
+format = " [󱎫 $duration]($style) "
 style = "yellow"
 
-# PROMPT
+[time]
+disabled = false
+time_format = "%R:%S" # Format HH:MM:SS
+style = "bold grey"
+format = "[$time]($style)"
+
 [character]
 success_symbol = "[➜](bold green)"
 error_symbol = "[✗](bold red)"
